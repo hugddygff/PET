@@ -15,7 +15,7 @@ This code is based on [Joey NMT](https://github.com/joeynmt/joeynmt) but modifie
 
 ## The reproduction of results
 Please download the pre-trained model in the place and put the model in the folder `model`.
-And excute the script
+And excute the script, the results may be a little different from the results reported in the paper. 
 
   `python -m signjoey test configs/sign.yaml`.
 
