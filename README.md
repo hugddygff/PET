@@ -20,8 +20,10 @@ And excute the script
   `python -m signjoey test configs/sign.yaml`.
 
 ## The training of the method
+
    (1) Firstly, to execute the following script, please comment the the following lines `train.py (lines 207-212, 1046-1048), decoders.py (lines 666-667, 603-604)`
   `python -m signjoey train configs/sign.yaml`
+  
    (2) Second, remove the comments of `train.py (lines 207-212, 1046-1048)`, add comments for `decoders.py (lines 665, 667, 603, 605)`, execute the following command,
   `python -m signjoey train configs/sign.yaml`
 
